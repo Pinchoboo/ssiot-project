@@ -1,0 +1,9 @@
+srcMac,dstMac,ethType,srcIp,dstIp,ipProto,srcPort,dstPort,priority, icmpType, icmpCode
+<deviceMac>,<gatewayMac>,0x0800,*,pool.ntp.org,17,*,123,1001,*,*
+<deviceMac>,ff:ff:ff:ff:ff:ff,0x0806,*,*,*,*,*,1300,*,*
+<deviceMac>,<gatewayMac>,0x0800,*,euw1-device-cloudgateway.iot.i.tplinknbu.com,6,*,443,855,*,*
+<deviceMac>,<gatewayMac>,0x0800,*,security.iot.i.tplinknbu.com,6,*,443,855,*,*
+<gatewayMac>,<deviceMac>,0x0800,euw1-device-cloudgateway.iot.i.tplinknbu.com,*,6,443,*,750,*,*
+<gatewayMac>,<deviceMac>,0x0800,security.iot.i.tplinknbu.com,*,6,443,*,750,*,*
+<gatewayMac>,<deviceMac>,0x0800,10.42.0.1,*,17,67,*,1400,*,*
+<gatewayMac>,<deviceMac>,0x0800,pool.ntp.org,*,17,123,*,1001,*,*
