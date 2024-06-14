@@ -1,7 +1,0 @@
-digraph G {
-  "" -> Tapo_P100_Smart_Plug  [ label="ARP"];
-  Tapo_P100_Smart_Plug -> "euw1-device-cloudgateway.iot.i.tplinknbu.com" [ label="ipv4 TCP :443" dir="both"];
-  Tapo_P100_Smart_Plug -> "security.iot.i.tplinknbu.com" [ label="ipv4 TCP :443" dir="both"];
-  Tapo_P100_Smart_Plug -> "pool.ntp.org" [ label="ipv4 UDP :132" dir="both"];
-  "*" -> Tapo_P100_Smart_Plug [ label="ipv4 UDP :67"];
-}

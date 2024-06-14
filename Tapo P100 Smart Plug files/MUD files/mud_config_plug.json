@@ -1,0 +1,14 @@
+{
+    "defaultGatewayConfig": {
+        "macAddress" : "0C:96:E6:3D:59:17",
+        "ipAddress": "10.42.0.1",
+        "ipv6Address": "fe80::dd4a:b925:122c:343a"
+    },
+
+    "deviceConfig":{
+        "device":"98:25:4a:50:4f:95",
+        "deviceName": "Tapo_P100_Plug"
+    },
+
+    "pcapLocation": "Group11-Tapo_P100_Smart_Plug.pcapng"
+}

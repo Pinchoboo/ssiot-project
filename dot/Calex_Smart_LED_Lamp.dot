@@ -1,5 +1,0 @@
-digraph G {
-  Calex_Smart_LED_Lamp -> "*.tuyaeu.com" [ label="ipv4 TCP :8886" dir="both"];
-  Calex_Smart_LED_Lamp -> "255.255.255.255/32" [ label="ipv4 UDP :6667"];
-  "*" -> Calex_Smart_LED_Lamp [ label="ipv4 UDP :67"];
-}

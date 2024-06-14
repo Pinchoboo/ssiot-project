@@ -1,0 +1,14 @@
+{
+    "defaultGatewayConfig": {
+        "macAddress" : "50:3e:aa:26:57:9e",
+        "ipAddress": "10.42.0.1",
+        "ipv6Address": "fe80::5c82:2fda:a8ed:4139"
+    },
+
+    "deviceConfig":{
+        "device":"50:8a:06:ba:bf:02",
+        "deviceName": "Calex_Bulb"
+    },
+
+    "pcapLocation": "Group11-Calex_bulb.pcapng"
+}

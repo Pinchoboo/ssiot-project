@@ -1,0 +1,8 @@
+srcMac,dstMac,ethType,srcIp,dstIp,ipProto,srcPort,dstPort,priority, icmpType, icmpCode
+<deviceMac>,<gatewayMac>,0x0800,*,m2.tuyaeu.com,6,*,8886,855,*,*
+<deviceMac>,ff:ff:ff:ff:ff:ff,0x0800,*,255.255.255.255,17,*,67,1300,*,*
+<deviceMac>,<gatewayMac>,0x0800,*,a3.tuyaeu.com,6,*,443,855,*,*
+<deviceMac>,ff:ff:ff:ff:ff:ff,0x0800,*,255.255.255.255,17,*,6667,1300,*,*
+<gatewayMac>,<deviceMac>,0x0800,m2.tuyaeu.com,*,6,8886,*,750,*,*
+<gatewayMac>,<deviceMac>,0x0800,a3.tuyaeu.com,*,6,443,*,750,*,*
+<gatewayMac>,<deviceMac>,0x0800,10.42.0.1,*,17,67,*,1400,*,*
