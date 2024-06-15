@@ -1,8 +1,10 @@
 # Tapo P100 Tp-Link Smart Plug
 
-In this page you can find files related with Tapo P100 smart plug
+In this page you can find the files related to the Tapo P100 smart plug traffic analysis.
 
-Relevant details of addresses throughout the pcaps:
+## Group11-Tapo_P100_Smart_Plug PCAP:
+
+Relevant addresses information in the PCAP:
 
 #### IoT device
 - **Tapo plug IP address: 10.42.0.170**
@@ -15,12 +17,6 @@ Relevant details of addresses throughout the pcaps:
 - **Gateway IP: 10.42.0.1**
 - **MAC address: 0c:96:e6:3d:59:17**
 - **IPv6 address: fe80::dd4a:b925:122c:343a**
-
-#### Mobile companion
-- **Mobile device IP: 10.42.0.46**
-
-
-## Group11-Tapo_P100_Smart_Plug pcap:
 
 This PCAP contains a trace of approximately 40 minutes of the captured active traffic.
 The captured traffic contains active interactions with the device both physically (ON/OFF button on the device itself) and from the companion APP (the most relevant actions) on an android device connected to a different network (not captured in this pcap). The companion APP traffic was captured in a separate pcap as it communicates directly (i.e. not through the cloud server) with the device when on the same network.
