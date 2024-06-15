@@ -10,7 +10,7 @@ This PCAP contains a trace of approximately 8 hours of the captured **IDLE** tra
 - **Initial Tapo plug IP address: 192.168.137.126**
 - **Final Tapo plug IP address: 192.168.137.97**
 - **Tapo plug MAC address: 98:25:4a:50:4f:95**
-- Main servers the plug contacts:
+- Main servers the plug contacts (check *"dns and ip.addr == 192.168.137.97"* wireshark filter):
     - **security.iot.i.tplinknbu.com** - cloud server responsable most probably for firmware updates with resolved IPs (34.243.103.189 / 54.170.92.104)
     - **euw1-device-cloudgateway.iot.i.tplinknbu.com** - cloud server responsable to deliver actions initiated from the APP and get status updates from the IoT with resolved IPs (34.243.103.189/54.170.92.104)
     - Remaining are NTP and other irrelevant IPs
